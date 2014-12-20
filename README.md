@@ -18,13 +18,14 @@ The variable "testRead" will contain the tidy data.
 
 
 ## Constraints:
-   1.this program expects a folder named "UCI HAR Dataset" to be
-     in the current working directory
+   1. This program expects a folder named "UCI HAR Dataset" to be in the current working directory
    2. The script depends on the following libraries
-    - plyr
-	- dplyr
-	The script will not run without these libraries being first installed.
-	The script will load them as part of the execution.
+   	* plyr
+   	* dplyr
+   
+
+The script will not run without these libraries being first installed.
+The script will load them as part of the execution.
 
 
 ##File descriptions:
