@@ -2,8 +2,8 @@
 
 ##Usage:
 From an R command prompt, simply enter the following commands:
->source("run_analysis.R")
->run.analysis()
+* source("run_analysis.R")
+* run.analysis()
 
 ## RETURNS:
    1. writes a file in the current working directory called "tidy.txt"
@@ -12,7 +12,7 @@ From an R command prompt, simply enter the following commands:
      this contains the summary data for the assignment
 
 It is possible to read the data into R using the following command:
-testRead <- read.table("./tidy.txt", header = TRUE, sep = "")
+* testRead <- read.table("./tidy.txt", header = TRUE, sep = "")
 
 The variable "testRead" will contain the tidy data.
 
@@ -60,8 +60,8 @@ In particular, tidy data contains the three following characteristics:
 The dataset was saved using write.table() command. Specifically, the following command was used:
 write.table(combinedSet, file="tidy.txt", row.name = FALSE)
 
-It is possible to read the data into R using the following command:
-testRead <- read.table("./tidy.txt", header = TRUE, sep = "")
+It is possible to read the data into R using the following command.
+* testRead <- read.table("./tidy.txt", header = TRUE, sep = "")
 
 The variable "testRead" will contain the tidy data.
 
@@ -71,7 +71,7 @@ The summary dataset was also saved using the write.table() command. Here is the 
 write.table(summaryTable, file="summary.txt", row.name = FALSE)
 
 The data can be read as follows:
-testSummary <- read.table("./summary.txt", header = TRUE, sep = "")
+* testSummary <- read.table("./summary.txt", header = TRUE, sep = "")
 
 ### Why the data created by this script should be considered tidy. 
 The output dataset, tidy.txt, has a separate row for each observation, each column is a variable, and the entire table forms an observational unit. This is consistent with Hadley's description of a tidy dataset. 
